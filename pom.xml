@@ -256,7 +256,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <projectName>TAP Automation Project</projectName>
+              <tap-step-files>TAP Automation Project</tap-step-files>
               <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
               <inputDirectory>${project.build.directory}</inputDirectory>
               <jsonFiles>
